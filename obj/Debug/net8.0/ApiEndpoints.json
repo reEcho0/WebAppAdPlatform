@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "WebAppAdPlatforms.Controllers.AdPlatformsController",
+    "Method": "LoadPlatforms",
+    "RelativePath": "api/AdPlatforms/load",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAdPlatforms.Controllers.AdPlatformsController",
+    "Method": "SearchPlatforms",
+    "RelativePath": "api/AdPlatforms/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppAdPlatforms.Controllers.TestController",
+    "Method": "Get",
+    "RelativePath": "api/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

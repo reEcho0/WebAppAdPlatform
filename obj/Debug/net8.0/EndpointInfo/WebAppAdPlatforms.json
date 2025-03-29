@@ -1,0 +1,43 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "AdPlatforms API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/AdPlatforms/load": {
+      "post": {
+        "tags": [
+          "AdPlatforms"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AdPlatforms/search": {
+      "get": {
+        "tags": [
+          "AdPlatforms"
+        ],
+        "parameters": [
+          {
+            "name": "location",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
